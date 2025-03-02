@@ -50,15 +50,14 @@ public class PracticeAll {
     return driver;
   }
 
-  public static WebDriver printTitle(WebDriver driver) throws InterruptedException {
+  public static void printTitle(WebDriver driver) throws InterruptedException {
     String title = driver.findElement(By.cssSelector("body > h1")).getText();
     System.out.println("The title is: " + title);
 
     Thread.sleep(3000);
-    return driver;
   }
 
-  public static WebDriver radioButton(WebDriver driver) throws InterruptedException {
+  public static void radioButton(WebDriver driver) throws InterruptedException {
     driver.findElement(By.xpath("//div[@id='radio-btn-example']//input[@value='radio1']")).click();
     Thread.sleep(500);
 
@@ -73,8 +72,6 @@ public class PracticeAll {
 
     driver.findElement(By.xpath("//div[@id='radio-btn-example']//input[@value='radio1']")).click();
     Thread.sleep(3000);
-
-    return driver;
   }
 
   public static void driverQuit(WebDriver driver) throws InterruptedException {
@@ -83,7 +80,7 @@ public class PracticeAll {
     driver.quit();
   }
 
-  public static WebDriver suggession(WebDriver driver, String keys, String country) throws InterruptedException {
+  public static void suggession(WebDriver driver, String keys, String country) throws InterruptedException {
     driver.findElement(By.cssSelector("#autocomplete")).sendKeys(keys);
 
     List<WebElement> countries = driver.findElements(By.cssSelector("li.ui-menu-item div"));
@@ -102,10 +99,9 @@ public class PracticeAll {
     }
 
     Thread.sleep(3000);
-    return driver;
   }
 
-  public static WebDriver dropdown(WebDriver driver) throws InterruptedException {
+  public static void dropdown(WebDriver driver) throws InterruptedException {
 
     WebElement dropdownElement = driver.findElement(By.id("dropdown-class-example"));
     Select dropdown = new Select(dropdownElement);
@@ -126,10 +122,9 @@ public class PracticeAll {
     System.out.println("memilih Option3: yang terpilih adalah " + dropdown.getFirstSelectedOption().getText());
 
     Thread.sleep(3000);
-    return driver;
   }
 
-  public static WebDriver checkbox(WebDriver driver) throws InterruptedException {
+  public static void checkbox(WebDriver driver) throws InterruptedException {
     driver.findElement(By.xpath("//div[@id='checkbox-example']//input[@value='option1']")).click();
     Thread.sleep(500);
 
@@ -158,10 +153,9 @@ public class PracticeAll {
     Thread.sleep(500);
 
     Thread.sleep(2000);
-    return driver;
   }
 
-  public static WebDriver switchWindowHandler(WebDriver driver) throws InterruptedException {
+  public static void switchWindowHandler(WebDriver driver) throws InterruptedException {
     driver.findElement(By.id("openwindow")).click();
 
     // lebih aman untuk performance
@@ -200,11 +194,9 @@ public class PracticeAll {
     driver.switchTo().window(window1);
 
     Thread.sleep(2000);
-
-    return driver;
   }
 
-  public static WebDriver switchTabHandler(WebDriver driver) throws InterruptedException {
+  public static void switchTabHandler(WebDriver driver) throws InterruptedException {
     driver.findElement(By.id("opentab")).click();
 
     // lebih aman untuk performance
@@ -215,7 +207,7 @@ public class PracticeAll {
     // String tab2 = iterator.next();
 
     List<String> windows = new ArrayList<>(driver.getWindowHandles());
-    System.out.println("Ini adalah windows" + windows);
+    System.out.println("Ini adalah tabs" + windows);
 
     String tab1 = windows.get(0);
     String tab2 = windows.get(1);
@@ -241,11 +233,9 @@ public class PracticeAll {
     // after close tab2, must be returned to tab1 so the automation can keep going
     driver.switchTo().window(tab1);
     Thread.sleep(2000);
-
-    return driver;
   }
 
-  public static WebDriver handleAlert(WebDriver driver) throws InterruptedException {
+  public static void handleAlert(WebDriver driver) throws InterruptedException {
     driver.findElement(By.id("name")).sendKeys("Novel ALERT");
 
     driver.findElement(By.id("alertbtn")).click();
@@ -254,11 +244,9 @@ public class PracticeAll {
     Thread.sleep(2000);
 
     driver.switchTo().alert().accept();
-
-    return driver;
   }
 
-  public static WebDriver handleConfirm(WebDriver driver) throws InterruptedException {
+  public static void handleConfirm(WebDriver driver) throws InterruptedException {
     driver.findElement(By.id("name")).sendKeys("Novel CONFIRM");
 
     driver.findElement(By.id("confirmbtn")).click();
@@ -275,11 +263,9 @@ public class PracticeAll {
     System.out.println(driver.switchTo().alert().getText());
     Thread.sleep(2000);
     driver.switchTo().alert().dismiss();
-
-    return driver;
   }
 
-  public static WebDriver hideShowTextBox(WebDriver driver) throws InterruptedException {
+  public static void hideShowTextBox(WebDriver driver) throws InterruptedException {
     WebElement showTextElement = driver.findElement(By.id("show-textbox"));
     WebElement hideTextElement = driver.findElement(By.id("hide-textbox"));
     WebElement displayedTextElement = driver.findElement(By.id("displayed-text"));
@@ -292,8 +278,6 @@ public class PracticeAll {
 
     toggleAndHandleTextBox(showTextElement, displayedTextElement);
     toggleAndHandleTextBox(hideTextElement, displayedTextElement);
-
-    return driver;
   }
 
   private static void toggleAndHandleTextBox(WebElement toggleButton, WebElement textBox) throws InterruptedException {
@@ -301,18 +285,18 @@ public class PracticeAll {
     Thread.sleep(500);
 
     if (textBox.isDisplayed()) {
-      System.out.println("Text bos is now DISPLAYED");
+      System.out.println("Text box is now DISPLAYED");
       textBox.sendKeys("You can see me now");
       System.out.println("The default value is: " + textBox.getDomAttribute("value"));
       System.out.println("The value sent is: " + textBox.getDomProperty("value"));
     } else {
-      System.out.println("Text bos is now HIDDEN");
+      System.out.println("Text box is now HIDDEN");
       System.out.println("Cannot send keys! Element is not visible.");
     }
     Thread.sleep(2000);
   }
 
-  public static WebDriver webTable(WebDriver driver, int rowNumber) {
+  public static void webTable(WebDriver driver, int rowNumber) {
     List<WebElement> rows = driver.findElements(By.xpath("//table[@id='product']/tbody/tr"));
     // System.out.println(rows.size());
     // found 20 size
@@ -320,7 +304,6 @@ public class PracticeAll {
     // Check if rowNumber is valid
     if (rowNumber <= 0 || rowNumber > rows.size()) {
       System.out.println("Invalid row number!");
-      return driver;
     }
 
     // Get the row at the given number (index 0 is header, continue to index 1)
@@ -337,17 +320,14 @@ public class PracticeAll {
     System.out.println("Instructor: " + instructor);
     System.out.println("Course: " + course);
     System.out.println("Price: " + price);
-
-    return driver;
   }
 
-  public static WebDriver webTableFixHead(WebDriver driver, int rowNumber) {
+  public static void webTableFixHead(WebDriver driver, int rowNumber) {
     List<WebElement> rows = driver.findElements(By.xpath("//div[@class='tableFixHead']/table[@id='product']/tbody/tr"));
 
     // Check if rowNumber is valid
     if (rowNumber <= 0 || rowNumber > rows.size()) {
       System.out.println("Invalid row number!");
-      return driver;
     }
 
     // Get the row at the given number (index 0 is not header, it is data)
@@ -373,11 +353,9 @@ public class PracticeAll {
     int extractedNumber = Integer.parseInt(totalAmount.split(": ")[1]);
     System.out.println("Total amount collected from the fixed table is: "
         + extractedNumber);
-
-    return driver;
   }
 
-  public static WebDriver mouseHover(WebDriver driver) throws InterruptedException {
+  public static void mouseHover(WebDriver driver) throws InterruptedException {
     WebElement mouseHover = driver.findElement(By.id("mousehover"));
     WebElement topButton = mouseHover.findElement(By.xpath("./parent::div/div/a[text()='Top']"));
     WebElement reloadButton = mouseHover.findElement(By.xpath("./parent::div/div/a[text()='Reload']"));
@@ -409,8 +387,6 @@ public class PracticeAll {
     Thread.sleep(1000);
     actions.click(reloadButton).perform();
     Thread.sleep(2000);
-
-    return driver;
   }
 
 }
