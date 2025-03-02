@@ -17,12 +17,12 @@ public class PracticeAll {
 
     // STARTS from here, you can call any function you want to do
 
-    printTitle(driver);
-    radioButton(driver);
-    suggession(driver, "ara", "United Arab Emirates");
-    dropdown(driver);
-    checkbox(driver);
-    switchWindowHandler(driver);
+    // printTitle(driver);
+    // radioButton(driver);
+    // suggession(driver, "ara", "United Arab Emirates");
+    // dropdown(driver);
+    // checkbox(driver);
+    // switchWindowHandler(driver);
     switchTabHandler(driver);
     handleAlert(driver);
     handleConfirm(driver);
@@ -194,6 +194,11 @@ public class PracticeAll {
     Thread.sleep(1000);
 
     driver.close();
+
+    // after close window2, must be returned to window1 so the automation can keep
+    // going
+    driver.switchTo().window(window1);
+
     Thread.sleep(2000);
 
     return driver;
@@ -232,6 +237,9 @@ public class PracticeAll {
     Thread.sleep(1000);
 
     driver.close();
+
+    // after close tab2, must be returned to tab1 so the automation can keep going
+    driver.switchTo().window(tab1);
     Thread.sleep(2000);
 
     return driver;
