@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -11,8 +12,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class SeleniumIntroduction {
   public static void main(String[] args) throws InterruptedException {
     // loginScenario();
-    // incorrectPasswordScenario();
-    forgotPasswordScenario();
+    incorrectPasswordScenario();
+    // forgotPasswordScenario();
 
   }
 
@@ -28,7 +29,9 @@ public class SeleniumIntroduction {
     Thread.sleep(2000);
 
     // driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("novel@gmail.com");
-    driver.findElement(By.cssSelector("input#inputUsername")).sendKeys("novel@gmail.com");
+    WebElement userName = driver.findElement(By.cssSelector("input#inputUsername"));
+    userName.sendKeys("novel@gmail.com");
+
     driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("rahulshettyacademy");
     // driver.findElement(By.className("signInBtn")).click();
     driver.findElement(By.cssSelector("button.submit.signInBtn")).click();
@@ -77,9 +80,9 @@ public class SeleniumIntroduction {
     System.out.println("username " + username + "password " + password);
 
     if (username == "" || password == "") {
-      System.out.println("credentialnya gagal bozzzz");
+      System.out.println("user atau password salah nih");
     }
-
+    Thread.sleep(4000);
     driver.quit();
   }
 
@@ -128,7 +131,4 @@ public class SeleniumIntroduction {
 
     driver.quit();
   }
-
-  // coba tambah ini
-
 }
