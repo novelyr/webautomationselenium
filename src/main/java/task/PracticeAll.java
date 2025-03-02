@@ -15,14 +15,14 @@ public class PracticeAll {
   public static void main(String[] args) throws InterruptedException {
     WebDriver driver = setUp(); // change chromedriver address in setUp() if you want to try in your own laptop
 
-    // STARTS from here, you can call any function you want to do
+    // STARTS from here, you can call any methods you want to perform
 
-    // printTitle(driver);
-    // radioButton(driver);
-    // suggession(driver, "ara", "United Arab Emirates");
-    // dropdown(driver);
-    // checkbox(driver);
-    // switchWindowHandler(driver);
+    printTitle(driver);
+    radioButton(driver);
+    suggession(driver, "ara", "United Arab Emirates");
+    dropdown(driver);
+    checkbox(driver);
+    switchWindowHandler(driver);
     switchTabHandler(driver);
     handleAlert(driver);
     handleConfirm(driver);
@@ -31,7 +31,7 @@ public class PracticeAll {
     webTableFixHead(driver, 3);
     mouseHover(driver);
 
-    // END off function
+    // END off methods
     // driverQuit must be called last
     driverQuit(driver);
   }
