@@ -1,4 +1,4 @@
-package webautomation;
+package webautomation.locator;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

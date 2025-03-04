@@ -1,4 +1,4 @@
-package webautomation;
+package webautomation.locator;
 
 import java.time.Duration;
 import java.util.List;
