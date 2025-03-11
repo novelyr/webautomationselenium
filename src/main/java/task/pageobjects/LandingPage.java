@@ -1,4 +1,4 @@
-package webautomation.pageobjects;
+package task.pageobjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -18,19 +18,19 @@ public class LandingPage extends AbstractComponent {
     PageFactory.initElements(driver, this);
   }
 
-  @FindBy(id = "userEmail")
+  @FindBy(id = "user-name")
   WebElement userEmailElement;
 
-  @FindBy(id = "userPassword")
+  @FindBy(id = "password")
   WebElement userPasswordElement;
 
-  @FindBy(className = "login-btn")
+  @FindBy(id = "login-button")
   WebElement loginBtnElement;
 
-  By cartButton = By.id("userEmail");
+  By userName = By.id("user-name");
 
   public void loginApplication(String userEmail, String userPassword) {
-    visibilityOfElementLocated(cartButton);
+    visibilityOfElementLocated(userName);
     userEmailElement.sendKeys(userEmail);
     userPasswordElement.sendKeys(userPassword);
 

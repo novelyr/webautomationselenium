@@ -1,4 +1,4 @@
-package webautomation.pageobjects;
+package task.pageobjects;
 
 import java.util.List;
 
@@ -20,17 +20,16 @@ public class ProductListPage extends AbstractComponent {
     PageFactory.initElements(driver, this);
   }
 
-  @FindBy(css = ".mb-3")
+  @FindBy(css = ".inventory_item")
   List<WebElement> listProducts;
 
-  @FindBy(css = "[routerlink*='cart']")
+  @FindBy(id = "shopping_cart_container")
   WebElement cartOrderButton;
 
-  By cartButton = By.xpath("//div[@class='card-body']//child::button//child::i[@class='fa fa-shopping-cart']");
-  By titleProduct = By.cssSelector("b");
-  By listElement = By.cssSelector(".mb-3");
-  By toaster = By.cssSelector("toast-container");
-  By cartOrderElement = By.cssSelector("button[routerlink*='cart']");
+  By cartButton = By.cssSelector(".btn_inventory");
+  By titleProduct = By.cssSelector(".inventory_item_label a");
+  By listElement = By.cssSelector(".inventory_item");
+  By cartOrderBy = By.id("shopping_cart_container");
 
   public List<WebElement> getProductList() {
     return listProducts;
@@ -47,12 +46,11 @@ public class ProductListPage extends AbstractComponent {
     visibilityOfElementLocated(listElement);
     product = getProductByName(productName);
     product.findElement(cartButton).click();
-    // visibilityOfElementLocated(toaster);
     Thread.sleep(2000);
   }
 
   public void goToCart() throws InterruptedException {
-    visibilityOfElementLocated(cartOrderElement);
+    visibilityOfElementLocated(cartOrderBy);
     cartOrderButton.click();
     Thread.sleep(2000);
   }
