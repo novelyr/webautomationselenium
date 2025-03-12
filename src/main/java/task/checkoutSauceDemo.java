@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class checkoutSauceDemo {
+
   public static void main(String[] args) throws InterruptedException {
     // Setup Driver
     System.setProperty("webdriver.chrome.driver", "D:/QA/chromedriver-win64/chromedriver.exe");
