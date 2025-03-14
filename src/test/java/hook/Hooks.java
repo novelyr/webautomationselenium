@@ -1,20 +1,23 @@
-package components;
+package hook;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.time.Duration;
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class BaseTest {
+import io.cucumber.java.After;
+import io.cucumber.java.AfterAll;
+import io.cucumber.java.Before;
 
-  public WebDriver driver;
+public class Hooks {
 
-  public WebDriver initializeDriver() throws IOException {
+  public static WebDriver driver;
 
+  @Before
+  public void setUpAutomation() throws IOException {
     Properties properties = new Properties();
     FileInputStream fileInputStream = new FileInputStream(
         "D:\\QA\\webautomationselenium\\src\\main\\resources\\GlobalData.properties");
@@ -33,8 +36,29 @@ public class BaseTest {
       System.setProperty("webdriver.gecko.driver", "");
       driver = new FirefoxDriver();
     }
-    driver.get("https://rahulshettyacademy.com/client");
-    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+
+  }
+
+  @After
+  public void tearDownScenario() {
+    if (driver != null) {
+      driver.close();
+    }
+  }
+
+  public static WebDriver initializeDriver() {
     return driver;
+  }
+
+  // @BeforeAll
+  // public void setUp() {
+
+  // }
+
+  @AfterAll
+  public static void tearDownEnd() {
+    if (driver != null) {
+      driver.quit();
+    }
   }
 }

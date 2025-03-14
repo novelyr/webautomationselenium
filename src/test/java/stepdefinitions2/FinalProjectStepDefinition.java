@@ -1,4 +1,4 @@
-package stepdefinitions;
+package stepdefinitions2;
 
 import java.time.Duration;
 
@@ -16,7 +16,7 @@ import webautomation.pageobjects.LandingPage;
 import webautomation.pageobjects.OrderPage;
 import webautomation.pageobjects.ProductListPage;
 
-public class StepDefinitionImpl {
+public class FinalProjectStepDefinition {
 
   public WebDriver driver;
   // String productName = "ZARA COAT 3";

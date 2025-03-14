@@ -3,14 +3,6 @@ Feature: Purchase the order from ecommerce
 Background: Buyer landed to website
     Given Buyer landing to ecommerce
 
-# Scenario: Create Order Positive Case
-#     Given Buyer logged to website
-#     When Buyer add product to Cart
-#     And Buyer checkout product
-#     And Buyer place order
-#     Then Buyer will see message is displayed on confirmation page
-
-
 Scenario Outline: Create Order Positive Case
     Given Buyer logged to website email <email> and password <password>
     # When Buyer add product <product_name> to Cart
