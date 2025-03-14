@@ -6,13 +6,13 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/features2", glue = { "stepdefinitions2",
-    "hook" }, plugin = {
-        "pretty", // Pretty console output
-        "html:target/cucumber-report.html", // HTML report
-        "json:target/cucumber-report.json", // JSON report
-        "junit:target/cucumber-report.xml" // JUnit XML report
-    })
+@CucumberOptions(features = "src/test/resources/features/FinalProject.feature", glue = { "stepdefinitions.finalproject",
+                "hook" }, plugin = {
+                                "pretty", // Pretty console output
+                                "html:target/cucumber-report.html", // HTML report
+                                "json:target/cucumber-report.json", // JSON report
+                                "junit:target/cucumber-report.xml" // JUnit XML report
+                })
 public class FinalProjectTestRunner {
 
 }

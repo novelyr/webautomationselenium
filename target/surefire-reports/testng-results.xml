@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-14T14:25:18 WIB" name="Web Automation Suite" finished-at="2025-03-14T14:25:33 WIB" duration-ms="15954">
+  <suite started-at="2025-03-14T15:40:23 WIB" name="Web Automation Suite" finished-at="2025-03-14T15:41:01 WIB" duration-ms="37560">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectTestRunnerTestNG@4c402120]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-03-14T14:25:18 WIB" name="Web Automation Test" finished-at="2025-03-14T14:25:33 WIB" duration-ms="15954">
+    <test started-at="2025-03-14T15:40:23 WIB" name="Web Automation Test" finished-at="2025-03-14T15:41:01 WIB" duration-ms="37560">
       <class name="runners.FinalProjectTestRunnerTestNG">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.FinalProjectTestRunnerTestNG@4c402120]" started-at="2025-03-14T14:25:18 WIB" name="setUpClass" finished-at="2025-03-14T14:25:18 WIB" duration-ms="711" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.FinalProjectTestRunnerTestNG@4c402120]" started-at="2025-03-14T15:40:23 WIB" name="setUpClass" finished-at="2025-03-14T15:40:24 WIB" duration-ms="704" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,7 +21,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectTestRunnerTestNG@4c402120]" started-at="2025-03-14T14:25:18 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-14T14:25:25 WIB" duration-ms="6827" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectTestRunnerTestNG@4c402120]" started-at="2025-03-14T15:40:24 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-14T15:40:28 WIB" duration-ms="3940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Loged Out User"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase the order from ecommerce"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectTestRunnerTestNG@4c402120]" started-at="2025-03-14T15:40:28 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-14T15:40:35 WIB" duration-ms="7151" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectTestRunnerTestNG@4c402120]" started-at="2025-03-14T14:25:25 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-14T14:25:33 WIB" duration-ms="8131" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectTestRunnerTestNG@4c402120]" started-at="2025-03-14T15:40:35 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-14T15:40:41 WIB" duration-ms="5797" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +69,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.FinalProjectTestRunnerTestNG@4c402120]" started-at="2025-03-14T14:25:33 WIB" name="tearDownClass" finished-at="2025-03-14T14:25:33 WIB" duration-ms="201" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectTestRunnerTestNG@4c402120]" started-at="2025-03-14T15:40:41 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-14T15:40:55 WIB" duration-ms="13772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create Order Positive Case"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase the order from ecommerce"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectTestRunnerTestNG@4c402120]" started-at="2025-03-14T15:40:55 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-14T15:41:01 WIB" duration-ms="5946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create Order Positive Case"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase the order from ecommerce"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.FinalProjectTestRunnerTestNG@4c402120]" started-at="2025-03-14T15:41:01 WIB" name="tearDownClass" finished-at="2025-03-14T15:41:01 WIB" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

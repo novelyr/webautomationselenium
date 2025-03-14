@@ -13,9 +13,9 @@ import org.testng.annotations.Test;
 
 import task.pageobjects.CartPage;
 import task.pageobjects.ConfirmationPage;
+import task.pageobjects.FinishOrder;
 import task.pageobjects.LandingPage;
 import task.pageobjects.OrderPage;
-import task.pageobjects.OrderPage2;
 import task.pageobjects.ProductListPage;
 
 public class POMTaskSauceDemo {
@@ -55,9 +55,9 @@ public class POMTaskSauceDemo {
     orderPage.inputData(firsName, lastName, postalCode);
     orderPage.continueOrder();
 
-    OrderPage2 orderPage2 = new OrderPage2(driver);
-    Assert.assertTrue(orderPage2.verifyCheckoutProduct(productName));
-    orderPage2.finishOrder();
+    FinishOrder finishOrder = new FinishOrder(driver);
+    Assert.assertTrue(finishOrder.verifyCheckoutProduct(productName));
+    finishOrder.finishOrder();
 
     ConfirmationPage confirmationPage = new ConfirmationPage(driver);
     String confirmationText = confirmationPage.getConfirmationPageText();

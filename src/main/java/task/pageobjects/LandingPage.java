@@ -27,7 +27,11 @@ public class LandingPage extends AbstractComponent {
   @FindBy(id = "login-button")
   WebElement loginBtnElement;
 
+  @FindBy(css = "h3")
+  WebElement errorNotification;
+
   By userName = By.id("user-name");
+  By errorNotifBy = By.cssSelector("h3");
 
   public void loginApplication(String userEmail, String userPassword) {
     visibilityOfElementLocated(userName);
@@ -35,5 +39,10 @@ public class LandingPage extends AbstractComponent {
     userPasswordElement.sendKeys(userPassword);
 
     loginBtnElement.click();
+  }
+
+  public String errorNotificationText() {
+    visibilityOfElementLocated(errorNotifBy);
+    return errorNotification.getText();
   }
 }
