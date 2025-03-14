@@ -14,16 +14,6 @@ public class BaseTest {
   public WebDriver driver;
 
   public WebDriver initializeDriver() throws IOException {
-    /*
-     * Check global.properties and get brower
-     * if (browser == "chrome"){
-     * driver = chrome;
-     * }else if(browser == "firefox") {
-     * driver = firefox;
-     * }else{
-     * driver = edge
-     * }
-     */
 
     Properties properties = new Properties();
     FileInputStream fileInputStream = new FileInputStream(
@@ -32,7 +22,7 @@ public class BaseTest {
     properties.load(fileInputStream);
     String browserName = properties.getProperty("browser");
 
-    System.out.println("browserName" + browserName);
+    // System.out.println("browserName" + browserName);
 
     if (browserName.equals("chrome")) {
       // Driver chrome

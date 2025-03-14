@@ -1,7 +1,8 @@
-## FILE TUGAS
+## FINAL PROJECT
 
-File tugas ada di src\main\java\task
+- Feature: [`FinalProject.feature`](src/test/resources/features/FinalProject.feature)
+- Step definition: [`FinalProjectStepDefinition.java`](src/test/java/stepdefinitions/finalproject/FinalProjectStepDefinition.java)
+- Test runner: [`FinalProjectTestRunner.java`](src/test/java/runners/FinalProjectTestRunner.java)
+- Test runner Test NG: [`FinalProjectTestRunnerTestNG.java`](src/test/java/runners/FinalProjectTestRunnerTestNG.java)
 
-tugas terakhir tentang cekout di: src\main\java\task\checkoutSauceDemo.java
-
-tugas terakhir tentang cekout POM di: src\test\java\automation\POMTaskSauceDemo.java
+_Run "mvn test" on terminal to execute_

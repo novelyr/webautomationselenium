@@ -3,14 +3,13 @@
 <suite thread-count="2" parallel="methods" name="Failed suite [Web Automation Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="2" parallel="methods" name="Web Automation Test(failed)" verbose="0">
     <classes>
-      <class name="automation.StandAloneTestNGImpl">
+      <class name="runners.FinalProjectTestRunnerTestNG">
         <methods>
-          <include name="createOrder"/>
-          <include name="closeDriver"/>
-          <include name="setUp"/>
-          <include name="quitDriver"/>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- automation.StandAloneTestNGImpl -->
+      </class> <!-- runners.FinalProjectTestRunnerTestNG -->
     </classes>
   </test> <!-- Web Automation Test(failed) -->
 </suite> <!-- Failed suite [Web Automation Suite] -->

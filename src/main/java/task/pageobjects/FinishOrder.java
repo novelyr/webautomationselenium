@@ -10,10 +10,10 @@ import org.openqa.selenium.support.PageFactory;
 
 import webautomation.abstractcomponent.AbstractComponent;
 
-public class OrderPage2 extends AbstractComponent {
+public class FinishOrder extends AbstractComponent {
   WebDriver driver;
 
-  public OrderPage2(WebDriver driver) {
+  public FinishOrder(WebDriver driver) {
     super(driver);
     this.driver = driver;
     PageFactory.initElements(driver, this);

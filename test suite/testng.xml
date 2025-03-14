@@ -4,8 +4,9 @@
     
     <test name="Web Automation Test">
         <classes>
-            <class name="automation.POMTaskSauceDemo"/>
+            <!-- <class name="automation.POMTaskSauceDemo"/> -->
+            <!-- <class name="runners.TestRunnerTestNG"/> -->
+            <class name="runners.FinalProjectTestRunnerTestNG"/>
         </classes>
     </test>
-
 </suite>

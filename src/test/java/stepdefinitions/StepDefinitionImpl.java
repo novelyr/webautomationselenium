@@ -1,12 +1,11 @@
 package stepdefinitions;
 
-import java.io.IOException;
+import java.time.Duration;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-import components.BaseTest;
+import hook.Hooks;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -17,22 +16,17 @@ import webautomation.pageobjects.LandingPage;
 import webautomation.pageobjects.OrderPage;
 import webautomation.pageobjects.ProductListPage;
 
-public class StepDefinitionImpl extends BaseTest {
+public class StepDefinitionImpl {
 
   public WebDriver driver;
   // String productName = "ZARA COAT 3";
   // String destination = "Indonesia";
 
   @Given("Buyer landing to ecommerce")
-  public void landingPage() throws IOException {
-    // Setup Driver
-    // System.setProperty("webdriver.chrome.driver",
-    // "/Users/bytedance/CourseQAAutomation/Web Automation/chromedriver");
-    // driver = new ChromeDriver();
-    // driver.get("https://rahulshettyacademy.com/client");
-    // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-
-    driver = initializeDriver();
+  public void landingPage() {
+    driver = Hooks.initializeDriver();
+    driver.get("https://rahulshettyacademy.com/client");
+    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
   }
 
   @Given("^Buyer logged to website email (.+) and password (.+)$")
@@ -45,7 +39,8 @@ public class StepDefinitionImpl extends BaseTest {
   public void buyerAddProduct(String productName) throws InterruptedException {
     ProductListPage productListPage = new ProductListPage(driver);
     productListPage.addToCart(productName);
-    driver.findElement(By.cssSelector("[routerlink*='cart']")).click();
+    productListPage.goToCart();
+    ;
   }
 
   @And("^Buyer checkout product (.+)$")
@@ -67,6 +62,5 @@ public class StepDefinitionImpl extends BaseTest {
     ConfirmationPage confirmationPage = new ConfirmationPage(driver);
     String confirmationText = confirmationPage.getConfirmationPage();
     Assert.assertEquals(confirmationText, successCheckout);
-    driver.close();
   }
 }
