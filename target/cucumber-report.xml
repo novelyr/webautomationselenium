@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="36.904" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-03-14T08:40:24.512078700Z">
-<testcase classname="Purchase the order from ecommerce" name="Loged Out User" time="3.818">
+<testsuite name="Cucumber" time="32.83" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-03-15T06:51:20.932466400Z">
+<testcase classname="Purchase the order from ecommerce" name="Error User Stuck - #1.1" time="6.339">
 <system-out><![CDATA[
 Given Buyer landing to ecommerce............................................passed
-When Buyer logged to website user locked_out_user and password secret_sauce.passed
+Given Buyer logged to website username error_user and password secret_sauce.passed
+When Buyer add product Sauce Labs Backpack to Cart..........................passed
+And Buyer checkout product Sauce Labs Backpack..............................passed
+And Buyer input first name Novel, last name Rehandhika, and postal code 63419.passed
+And Buyer finish order product Sauce Labs Backpack..........................passed
+Then Buyer still in the finish page with title Checkout: Overview...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Purchase the order from ecommerce" name="Problem User Order - #1.1" time="4.724">
+<system-out><![CDATA[
+Given Buyer landing to ecommerce............................................passed
+Given Buyer logged to website username problem_user and password secret_sauce.passed
+When Buyer add product Sauce Labs Backpack to Cart..........................passed
+And Buyer checkout product Sauce Labs Backpack..............................passed
+And Buyer input first name Novel, last name Rehandhika, and postal code 63410.passed
+Then Buyer will see error input notification Error: Last Name is required...passed
+]]></system-out>
+</testcase>
+<testcase classname="Purchase the order from ecommerce" name="Loged Out User - #1.1" time="2.049">
+<system-out><![CDATA[
+Given Buyer landing to ecommerce............................................passed
+Given Buyer logged to website username locked_out_user and password secret_sauce.passed
 Then Buyer will see notification Epic sadface: Sorry, this user has been locked out..passed
 ]]></system-out>
 </testcase>
-<testcase classname="Purchase the order from ecommerce" name="Create Order Positive Case - #1.1" time="7.144">
+<testcase classname="Purchase the order from ecommerce" name="Create Order Standard User - #1.1" time="5.072">
 <system-out><![CDATA[
 Given Buyer landing to ecommerce............................................passed
 Given Buyer logged to website username standard_user and password secret_sauce.passed
@@ -18,7 +39,7 @@ And Buyer finish order product Sauce Labs Bolt T-Shirt......................pass
 Then Buyer will see message is displayed on confirmation page Thank you for your order!.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Purchase the order from ecommerce" name="Create Order Positive Case - #1.2" time="5.784">
+<testcase classname="Purchase the order from ecommerce" name="Create Order Standard User - #1.2" time="4.817">
 <system-out><![CDATA[
 Given Buyer landing to ecommerce............................................passed
 Given Buyer logged to website username standard_user and password secret_sauce.passed
@@ -29,7 +50,7 @@ And Buyer finish order product Sauce Labs Onesie............................pass
 Then Buyer will see message is displayed on confirmation page Thank you for your order!.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Purchase the order from ecommerce" name="Create Order Positive Case - #1.3" time="13.772">
+<testcase classname="Purchase the order from ecommerce" name="Create Order Standard User - #1.3" time="4.62">
 <system-out><![CDATA[
 Given Buyer landing to ecommerce............................................passed
 Given Buyer logged to website username standard_user and password secret_sauce.passed
@@ -40,7 +61,7 @@ And Buyer finish order product Sauce Labs Bike Light........................pass
 Then Buyer will see message is displayed on confirmation page Thank you for your order!.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Purchase the order from ecommerce" name="Create Order Positive Case - #1.4" time="5.941">
+<testcase classname="Purchase the order from ecommerce" name="Create Order Standard User - #1.4" time="4.799">
 <system-out><![CDATA[
 Given Buyer landing to ecommerce............................................passed
 Given Buyer logged to website username standard_user and password secret_sauce.passed

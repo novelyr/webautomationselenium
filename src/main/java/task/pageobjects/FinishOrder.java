@@ -27,6 +27,11 @@ public class FinishOrder extends AbstractComponent {
   @FindBy(css = ".inventory_item_name")
   List<WebElement> listProducts;
 
+  @FindBy(css = ".title")
+  WebElement titleElement;
+
+  By titleBy = By.cssSelector(".title");
+
   public void finishOrder() {
     visibilityOfElementLocated(finishBy);
     finishButton.click();
@@ -37,5 +42,10 @@ public class FinishOrder extends AbstractComponent {
     Boolean match = listProducts.stream().anyMatch(cartProduct -> cartProduct.getText().equalsIgnoreCase(productName));
 
     return match;
+  }
+
+  public String getTitleText() {
+    visibilityOfElementLocated(titleBy);
+    return titleElement.getText();
   }
 }
