@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="38.17" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="34.288" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="webdriver.chrome.driver" value="D:/QA/chromedriver-win64/chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ID"/>
     <property name="sun.boot.library.path" value="C:\Program Files\OpenJDK23\jdk-23.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Novel Rehandhika\AppData\Local\Temp\surefire11663812963455905678\surefirebooter-20250314154022916_3.jar C:\Users\Novel Rehandhika\AppData\Local\Temp\surefire11663812963455905678 2025-03-14T15-40-22_737-jvmRun1 surefire-20250314154022916_1tmp surefire_0-20250314154022916_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Novel Rehandhika\AppData\Local\Temp\surefire10265890402035893931\surefirebooter-20250315135119090_3.jar C:\Users\Novel Rehandhika\AppData\Local\Temp\surefire10265890402035893931 2025-03-15T13-51-18_915-jvmRun1 surefire-20250315135119090_1tmp surefire_0-20250315135119090_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\QA\webautomationselenium\target\test-classes;D:\QA\webautomationselenium\target\classes;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\Novel Rehandhika\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Novel Rehandhika\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Novel Rehandhika\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Novel Rehandhika\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Novel Rehandhika\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Novel Rehandhika\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\Novel Rehandhika\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Novel Rehandhika\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Novel Rehandhika\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\cucumber-java\7.21.1\cucumber-java-7.21.1.jar;C:\Users\Novel Rehandhika\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\cucumber-junit\7.21.1\cucumber-junit-7.21.1.jar;C:\Users\Novel Rehandhika\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Novel Rehandhika\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\cucumber-core\7.21.1\cucumber-core-7.21.1.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\cucumber-gherkin\7.21.1\cucumber-gherkin-7.21.1.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.21.1\cucumber-gherkin-messages-7.21.1.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\gherkin\31.0.0\gherkin-31.0.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\query\13.2.0\query-13.2.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\datatable\7.21.1\datatable-7.21.1.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\cucumber-plugin\7.21.1\cucumber-plugin-7.21.1.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\docstring\7.21.1\docstring-7.21.1.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\html-formatter\21.9.0\html-formatter-21.9.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\cucumber-testng\7.21.1\cucumber-testng-7.21.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Novel Rehandhika\AppData\Local\Temp\surefire11663812963455905678\surefirebooter-20250314154022916_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Novel Rehandhika\AppData\Local\Temp\surefire10265890402035893931\surefirebooter-20250315135119090_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.1+11-39"/>
@@ -59,17 +59,21 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Loged Out User&quot;, &quot;Purchase the order from ecommerce&quot;](1)" classname="runners.FinalProjectTestRunnerTestNG" time="3.931">
+  <testcase name="runScenario[&quot;Error User Stuck&quot;, &quot;Purchase the order from ecommerce&quot;](1)" classname="runners.FinalProjectTestRunnerTestNG" time="6.429">
     <system-out><![CDATA[
-Scenario: Loged Out User                                                               &amp#27;[90m# src/test/resources/features/FinalProject.feature:6&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer landing to ecommerce&amp#27;[0m                                                     &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.landingPage()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mBuyer logged to website user locked_out_user and password secret_sauce&amp#27;[0m          &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerLogin()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mBuyer will see notification &amp#27;[0m&amp#27;[32m&amp#27;[1mEpic sadface: Sorry, this user has been locked out.&amp#27;[0m &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.logedOutUser(java.lang.String)&amp#27;[0m
+Scenario Outline: Error User Stuck                                              &amp#27;[90m# src/test/resources/features/FinalProject.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer landing to ecommerce&amp#27;[0m                                              &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.landingPage()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer logged to website username &amp#27;[0m&amp#27;[32m&amp#27;[1merror_user&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1msecret_sauce&amp#27;[0m   &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerLogin(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mBuyer add product &amp#27;[0m&amp#27;[32m&amp#27;[1mSauce Labs Backpack&amp#27;[0m&amp#27;[32m to Cart&amp#27;[0m                            &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerAddProduct(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mBuyer checkout product &amp#27;[0m&amp#27;[32m&amp#27;[1mSauce Labs Backpack&amp#27;[0m                                &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerCheckoutProduct(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mBuyer input first name &amp#27;[0m&amp#27;[32m&amp#27;[1mNovel&amp#27;[0m&amp#27;[32m, last name &amp#27;[0m&amp#27;[32m&amp#27;[1mRehandhika&amp#27;[0m&amp#27;[32m, and postal code &amp#27;[0m&amp#27;[32m&amp#27;[1m63419&amp#27;[0m &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerInputDetails(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mBuyer finish order product &amp#27;[0m&amp#27;[32m&amp#27;[1mSauce Labs Backpack&amp#27;[0m                            &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerFinishOrder(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mBuyer still in the finish page with title &amp#27;[0m&amp#27;[32m&amp#27;[1mCheckout: Overview&amp#27;[0m             &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.errorStuckFinish(java.lang.String)&amp#27;[0m
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Mar 14, 2025 3:40:28 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+Mar 15, 2025 1:51:27 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
@@ -91,9 +95,70 @@ java.net.SocketException: Connection reset
 
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Create Order Positive Case&quot;, &quot;Purchase the order from ecommerce&quot;](2)" classname="runners.FinalProjectTestRunnerTestNG" time="7.142">
+  <testcase name="runScenario[&quot;Problem User Order&quot;, &quot;Purchase the order from ecommerce&quot;](2)" classname="runners.FinalProjectTestRunnerTestNG" time="4.719">
     <system-out><![CDATA[
-Scenario Outline: Create Order Positive Case                                              &amp#27;[90m# src/test/resources/features/FinalProject.feature:20&amp#27;[0m
+Scenario Outline: Problem User Order                                            &amp#27;[90m# src/test/resources/features/FinalProject.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer landing to ecommerce&amp#27;[0m                                              &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.landingPage()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer logged to website username &amp#27;[0m&amp#27;[32m&amp#27;[1mproblem_user&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1msecret_sauce&amp#27;[0m &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerLogin(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mBuyer add product &amp#27;[0m&amp#27;[32m&amp#27;[1mSauce Labs Backpack&amp#27;[0m&amp#27;[32m to Cart&amp#27;[0m                            &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerAddProduct(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mBuyer checkout product &amp#27;[0m&amp#27;[32m&amp#27;[1mSauce Labs Backpack&amp#27;[0m                                &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerCheckoutProduct(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mBuyer input first name &amp#27;[0m&amp#27;[32m&amp#27;[1mNovel&amp#27;[0m&amp#27;[32m, last name &amp#27;[0m&amp#27;[32m&amp#27;[1mRehandhika&amp#27;[0m&amp#27;[32m, and postal code &amp#27;[0m&amp#27;[32m&amp#27;[1m63410&amp#27;[0m &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerInputDetails(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mBuyer will see error input notification &amp#27;[0m&amp#27;[32m&amp#27;[1mError: Last Name is required&amp#27;[0m     &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.errorInputNotif(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 15, 2025 1:51:32 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1478)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1423)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1423)
+
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Loged Out User&quot;, &quot;Purchase the order from ecommerce&quot;](3)" classname="runners.FinalProjectTestRunnerTestNG" time="2.059">
+    <system-out><![CDATA[
+Scenario: Loged Out User                                                               &amp#27;[90m# src/test/resources/features/FinalProject.feature:37&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer landing to ecommerce&amp#27;[0m                                                     &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.landingPage()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer logged to website username &amp#27;[0m&amp#27;[32m&amp#27;[1mlocked_out_user&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1msecret_sauce&amp#27;[0m     &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerLogin(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mBuyer will see notification &amp#27;[0m&amp#27;[32m&amp#27;[1mEpic sadface: Sorry, this user has been locked out.&amp#27;[0m &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.logedOutUser(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 15, 2025 1:51:34 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1478)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1423)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1423)
+
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Create Order Standard User&quot;, &quot;Purchase the order from ecommerce&quot;](4)" classname="runners.FinalProjectTestRunnerTestNG" time="5.078">
+    <system-out><![CDATA[
+Scenario Outline: Create Order Standard User                                              &amp#27;[90m# src/test/resources/features/FinalProject.feature:49&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer landing to ecommerce&amp#27;[0m                                                        &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.landingPage()&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer logged to website username &amp#27;[0m&amp#27;[32m&amp#27;[1mstandard_user&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1msecret_sauce&amp#27;[0m          &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerLogin(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mBuyer add product &amp#27;[0m&amp#27;[32m&amp#27;[1mSauce Labs Bolt T-Shirt&amp#27;[0m&amp#27;[32m to Cart&amp#27;[0m                                  &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerAddProduct(java.lang.String)&amp#27;[0m
@@ -102,7 +167,7 @@ Scenario Outline: Create Order Positive Case                                    
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mBuyer finish order product &amp#27;[0m&amp#27;[32m&amp#27;[1mSauce Labs Bolt T-Shirt&amp#27;[0m                                  &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerFinishOrder(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mBuyer will see message is displayed on confirmation page &amp#27;[0m&amp#27;[32m&amp#27;[1mThank you for your order!&amp#27;[0m &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.confirmationPage(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2025 3:40:35 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Mar 15, 2025 1:51:39 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
@@ -124,9 +189,9 @@ java.net.SocketException: Connection reset
 
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Create Order Positive Case&quot;, &quot;Purchase the order from ecommerce&quot;](3)" classname="runners.FinalProjectTestRunnerTestNG" time="5.785">
+  <testcase name="runScenario[&quot;Create Order Standard User&quot;, &quot;Purchase the order from ecommerce&quot;](5)" classname="runners.FinalProjectTestRunnerTestNG" time="4.816">
     <system-out><![CDATA[
-Scenario Outline: Create Order Positive Case                                              &amp#27;[90m# src/test/resources/features/FinalProject.feature:21&amp#27;[0m
+Scenario Outline: Create Order Standard User                                              &amp#27;[90m# src/test/resources/features/FinalProject.feature:50&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer landing to ecommerce&amp#27;[0m                                                        &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.landingPage()&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer logged to website username &amp#27;[0m&amp#27;[32m&amp#27;[1mstandard_user&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1msecret_sauce&amp#27;[0m          &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerLogin(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mBuyer add product &amp#27;[0m&amp#27;[32m&amp#27;[1mSauce Labs Onesie&amp#27;[0m&amp#27;[32m to Cart&amp#27;[0m                                        &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerAddProduct(java.lang.String)&amp#27;[0m
@@ -135,7 +200,7 @@ Scenario Outline: Create Order Positive Case                                    
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mBuyer finish order product &amp#27;[0m&amp#27;[32m&amp#27;[1mSauce Labs Onesie&amp#27;[0m                                        &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerFinishOrder(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mBuyer will see message is displayed on confirmation page &amp#27;[0m&amp#27;[32m&amp#27;[1mThank you for your order!&amp#27;[0m &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.confirmationPage(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2025 3:40:41 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Mar 15, 2025 1:51:44 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
@@ -157,9 +222,9 @@ java.net.SocketException: Connection reset
 
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Create Order Positive Case&quot;, &quot;Purchase the order from ecommerce&quot;](4)" classname="runners.FinalProjectTestRunnerTestNG" time="13.772">
+  <testcase name="runScenario[&quot;Create Order Standard User&quot;, &quot;Purchase the order from ecommerce&quot;](6)" classname="runners.FinalProjectTestRunnerTestNG" time="4.628">
     <system-out><![CDATA[
-Scenario Outline: Create Order Positive Case                                              &amp#27;[90m# src/test/resources/features/FinalProject.feature:22&amp#27;[0m
+Scenario Outline: Create Order Standard User                                              &amp#27;[90m# src/test/resources/features/FinalProject.feature:51&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer landing to ecommerce&amp#27;[0m                                                        &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.landingPage()&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer logged to website username &amp#27;[0m&amp#27;[32m&amp#27;[1mstandard_user&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1msecret_sauce&amp#27;[0m          &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerLogin(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mBuyer add product &amp#27;[0m&amp#27;[32m&amp#27;[1mSauce Labs Bike Light&amp#27;[0m&amp#27;[32m to Cart&amp#27;[0m                                    &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerAddProduct(java.lang.String)&amp#27;[0m
@@ -168,7 +233,7 @@ Scenario Outline: Create Order Positive Case                                    
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mBuyer finish order product &amp#27;[0m&amp#27;[32m&amp#27;[1mSauce Labs Bike Light&amp#27;[0m                                    &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerFinishOrder(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mBuyer will see message is displayed on confirmation page &amp#27;[0m&amp#27;[32m&amp#27;[1mThank you for your order!&amp#27;[0m &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.confirmationPage(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2025 3:40:55 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Mar 15, 2025 1:51:48 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
@@ -190,9 +255,9 @@ java.net.SocketException: Connection reset
 
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Create Order Positive Case&quot;, &quot;Purchase the order from ecommerce&quot;](5)" classname="runners.FinalProjectTestRunnerTestNG" time="5.945">
+  <testcase name="runScenario[&quot;Create Order Standard User&quot;, &quot;Purchase the order from ecommerce&quot;](7)" classname="runners.FinalProjectTestRunnerTestNG" time="4.823">
     <system-out><![CDATA[
-Scenario Outline: Create Order Positive Case                                              &amp#27;[90m# src/test/resources/features/FinalProject.feature:23&amp#27;[0m
+Scenario Outline: Create Order Standard User                                              &amp#27;[90m# src/test/resources/features/FinalProject.feature:52&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer landing to ecommerce&amp#27;[0m                                                        &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.landingPage()&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer logged to website username &amp#27;[0m&amp#27;[32m&amp#27;[1mstandard_user&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1msecret_sauce&amp#27;[0m          &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerLogin(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mBuyer add product &amp#27;[0m&amp#27;[32m&amp#27;[1mSauce Labs Fleece Jacket&amp#27;[0m&amp#27;[32m to Cart&amp#27;[0m                                 &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerAddProduct(java.lang.String)&amp#27;[0m
@@ -201,7 +266,7 @@ Scenario Outline: Create Order Positive Case                                    
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mBuyer finish order product &amp#27;[0m&amp#27;[32m&amp#27;[1mSauce Labs Fleece Jacket&amp#27;[0m                                 &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerFinishOrder(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mBuyer will see message is displayed on confirmation page &amp#27;[0m&amp#27;[32m&amp#27;[1mThank you for your order!&amp#27;[0m &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.confirmationPage(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Mar 14, 2025 3:41:01 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Mar 15, 2025 1:51:53 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)

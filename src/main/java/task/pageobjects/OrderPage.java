@@ -24,14 +24,17 @@ public class OrderPage extends AbstractComponent {
   WebElement lastNameElement;
   @FindBy(id = "postal-code")
   WebElement postalCodeElement;
+  @FindBy(css = ".error-message-container.error")
+  WebElement errorContainerElement;
 
-  // @FindBy(xpath = "//span[@class='ng-star-inserted']")
+  // @FindBy(xpa= "//span[@class='ng-star-inserted']")
   // List<WebElement> listCountry;
 
   @FindBy(id = "continue")
   WebElement continueButton;
 
   By firstNameBy = By.id("first-name");
+  By errorContainerBy = By.cssSelector(".error-message-container.error");
 
   public void inputData(String firstName, String lastName, String postalCode) {
     visibilityOfElementLocated(firstNameBy);
@@ -40,22 +43,12 @@ public class OrderPage extends AbstractComponent {
         .sendKeys(postalCodeElement, postalCode).build().perform();
   }
 
-  // By elementSelectCountry = By.cssSelector("[placeholder = 'Select Country']");
-  // By elementListCountry = By.xpath("//span[@class='ng-star-inserted']");
-
-  // public void selectCountry(String destination) {
-  // visibilityOfElementLocated(elementSelectCountry);
-  // Actions action = new Actions(driver);
-  // action.sendKeys(selectCountry, destination).build().perform();
-
-  // visibilityOfElementLocated(elementListCountry);
-  // WebElement cont = listCountry.stream().filter(cont2 ->
-  // cont2.getText().equalsIgnoreCase(destination)).findFirst()
-  // .orElse(null);
-  // cont.click();
-  // }
-
   public void continueOrder() {
     continueButton.click();
+  }
+
+  public String errorNotificationText() {
+    visibilityOfElementLocated(errorContainerBy);
+    return errorContainerElement.getText();
   }
 }

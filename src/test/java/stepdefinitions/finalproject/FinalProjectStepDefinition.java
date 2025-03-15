@@ -70,15 +70,25 @@ public class FinalProjectStepDefinition {
     Assert.assertEquals(confirmationText, successCheckout);
   }
 
-  @Given("Buyer logged to website user locked_out_user and password secret_sauce")
-  public void buyerLogin() {
-    LandingPage landingPage = new LandingPage(driver);
-    landingPage.loginApplication("locked_out_user", "secret_sauce");
-  }
-
   @Then("^Buyer will see notification (.+)$")
   public void logedOutUser(String errorNotifString) {
     LandingPage landingPage = new LandingPage(driver);
     Assert.assertEquals(landingPage.errorNotificationText(), errorNotifString);
   }
+
+  @Then("^Buyer will see error input notification (.+)$")
+  public void errorInputNotif(String errorNotifString) {
+    OrderPage orderPage = new OrderPage(driver);
+    Assert.assertEquals(orderPage.errorNotificationText(), errorNotifString);
+  }
+
+  @Then("^Buyer still in the finish page with title (.+)$")
+  public void errorStuckFinish(String titleTextString) {
+    FinishOrder finishOrder = new FinishOrder(driver);
+    finishOrder.finishOrder(); // klik again 1
+    finishOrder.finishOrder(); // klik again 2
+    finishOrder.finishOrder(); // klik again 3
+    Assert.assertEquals(finishOrder.getTitleText(), titleTextString);
+  }
+
 }
