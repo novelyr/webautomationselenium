@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="34.288" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="32.457" tests="7" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="23"/>
+    <property name="java.specification.version" value="21"/>
     <property name="webdriver.chrome.driver" value="D:/QA/chromedriver-win64/chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
@@ -12,54 +12,54 @@
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="Asia/Jakarta"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="java.vm.specification.version" value="23"/>
+    <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ID"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\OpenJDK23\jdk-23.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Novel Rehandhika\AppData\Local\Temp\surefire10265890402035893931\surefirebooter-20250315135119090_3.jar C:\Users\Novel Rehandhika\AppData\Local\Temp\surefire10265890402035893931 2025-03-15T13-51-18_915-jvmRun1 surefire-20250315135119090_1tmp surefire_0-20250315135119090_2tmp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\Novel Rehandhika\AppData\Local\Temp\surefire17562465495845435557\surefirebooter-20250324171125474_3.jar C:\Users\Novel Rehandhika\AppData\Local\Temp\surefire17562465495845435557 2025-03-24T17-11-25_337-jvmRun1 surefire-20250324171125474_1tmp surefire_0-20250324171125474_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\QA\webautomationselenium\target\test-classes;D:\QA\webautomationselenium\target\classes;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\Novel Rehandhika\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Novel Rehandhika\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Novel Rehandhika\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Novel Rehandhika\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Novel Rehandhika\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Novel Rehandhika\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\Novel Rehandhika\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Novel Rehandhika\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Novel Rehandhika\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Novel Rehandhika\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\cucumber-java\7.21.1\cucumber-java-7.21.1.jar;C:\Users\Novel Rehandhika\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\cucumber-junit\7.21.1\cucumber-junit-7.21.1.jar;C:\Users\Novel Rehandhika\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Novel Rehandhika\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\cucumber-core\7.21.1\cucumber-core-7.21.1.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\cucumber-gherkin\7.21.1\cucumber-gherkin-7.21.1.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.21.1\cucumber-gherkin-messages-7.21.1.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\gherkin\31.0.0\gherkin-31.0.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\query\13.2.0\query-13.2.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\datatable\7.21.1\datatable-7.21.1.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\cucumber-plugin\7.21.1\cucumber-plugin-7.21.1.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\docstring\7.21.1\docstring-7.21.1.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\html-formatter\21.9.0\html-formatter-21.9.0.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Novel Rehandhika\.m2\repository\io\cucumber\cucumber-testng\7.21.1\cucumber-testng-7.21.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Novel Rehandhika"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2024-10-15"/>
-    <property name="java.home" value="C:\Program Files\OpenJDK23\jdk-23.0.1"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="D:\QA\webautomationselenium"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Novel Rehandhika\AppData\Local\Temp\surefire10265890402035893931\surefirebooter-20250315135119090_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Novel Rehandhika\AppData\Local\Temp\surefire17562465495845435557\surefirebooter-20250324171125474_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="23.0.1+11-39"/>
+    <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
     <property name="user.name" value="Novel Rehandhika"/>
     <property name="stdout.encoding" value="Cp1252"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\Novel Rehandhika\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\NOVELR~1\AppData\Local\Temp\"/>
-    <property name="java.version" value="23.0.1"/>
+    <property name="java.version" value="21.0.6"/>
     <property name="user.dir" value="D:\QA\webautomationselenium"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\OpenJDK23\jdk-23.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\OpenJDK23\jdk-23.0.1\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.9\bin;C:\Program Files\nodejs\;C:\Users\Novel Rehandhika\AppData\Local\Microsoft\WindowsApps;C:\Users\Novel Rehandhika\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.1.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1.1\bin;;C:\Users\Novel Rehandhika\.lmstudio\bin;C:\Users\Novel Rehandhika\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.9\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.9\bin;C:\Users\Novel Rehandhika\AppData\Local\Microsoft\WindowsApps;C:\Users\Novel Rehandhika\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.1.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1.1\bin;;C:\Users\Novel Rehandhika\.lmstudio\bin;C:\Users\Novel Rehandhika\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="23.0.1+11-39"/>
+    <property name="java.vm.version" value="21.0.6+8-LTS-188"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="67.0"/>
+    <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Error User Stuck&quot;, &quot;Purchase the order from ecommerce&quot;](1)" classname="runners.FinalProjectTestRunnerTestNG" time="6.429">
+  <testcase name="runScenario[&quot;Error User Stuck&quot;, &quot;Purchase the order from ecommerce&quot;](1)" classname="runners.FinalProjectTestRunnerTestNG" time="7.678">
     <system-out><![CDATA[
 Scenario Outline: Error User Stuck                                              &amp#27;[90m# src/test/resources/features/FinalProject.feature:17&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer landing to ecommerce&amp#27;[0m                                              &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.landingPage()&amp#27;[0m
@@ -73,12 +73,13 @@ Scenario Outline: Error User Stuck                                              
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Mar 15, 2025 1:51:27 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+Mar 24, 2025 5:11:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+Mar 24, 2025 5:11:34 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
-	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
 	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
@@ -88,14 +89,14 @@ java.net.SocketException: Connection reset
 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1478)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1423)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1423)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1469)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1414)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
 
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Problem User Order&quot;, &quot;Purchase the order from ecommerce&quot;](2)" classname="runners.FinalProjectTestRunnerTestNG" time="4.719">
+  <testcase name="runScenario[&quot;Problem User Order&quot;, &quot;Purchase the order from ecommerce&quot;](2)" classname="runners.FinalProjectTestRunnerTestNG" time="4.302">
     <system-out><![CDATA[
 Scenario Outline: Problem User Order                                            &amp#27;[90m# src/test/resources/features/FinalProject.feature:28&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer landing to ecommerce&amp#27;[0m                                              &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.landingPage()&amp#27;[0m
@@ -105,12 +106,13 @@ Scenario Outline: Problem User Order                                            
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mBuyer input first name &amp#27;[0m&amp#27;[32m&amp#27;[1mNovel&amp#27;[0m&amp#27;[32m, last name &amp#27;[0m&amp#27;[32m&amp#27;[1mRehandhika&amp#27;[0m&amp#27;[32m, and postal code &amp#27;[0m&amp#27;[32m&amp#27;[1m63410&amp#27;[0m &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerInputDetails(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mBuyer will see error input notification &amp#27;[0m&amp#27;[32m&amp#27;[1mError: Last Name is required&amp#27;[0m     &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.errorInputNotif(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Mar 15, 2025 1:51:32 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Mar 24, 2025 5:11:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+Mar 24, 2025 5:11:38 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
-	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
 	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
@@ -120,26 +122,27 @@ java.net.SocketException: Connection reset
 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1478)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1423)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1423)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1469)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1414)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
 
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Loged Out User&quot;, &quot;Purchase the order from ecommerce&quot;](3)" classname="runners.FinalProjectTestRunnerTestNG" time="2.059">
+  <testcase name="runScenario[&quot;Loged Out User&quot;, &quot;Purchase the order from ecommerce&quot;](3)" classname="runners.FinalProjectTestRunnerTestNG" time="1.999">
     <system-out><![CDATA[
 Scenario: Loged Out User                                                               &amp#27;[90m# src/test/resources/features/FinalProject.feature:37&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer landing to ecommerce&amp#27;[0m                                                     &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.landingPage()&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer logged to website username &amp#27;[0m&amp#27;[32m&amp#27;[1mlocked_out_user&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1msecret_sauce&amp#27;[0m     &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerLogin(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mBuyer will see notification &amp#27;[0m&amp#27;[32m&amp#27;[1mEpic sadface: Sorry, this user has been locked out.&amp#27;[0m &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.logedOutUser(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Mar 15, 2025 1:51:34 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Mar 24, 2025 5:11:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+Mar 24, 2025 5:11:40 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
-	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
 	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
@@ -149,14 +152,14 @@ java.net.SocketException: Connection reset
 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1478)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1423)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1423)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1469)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1414)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
 
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Create Order Standard User&quot;, &quot;Purchase the order from ecommerce&quot;](4)" classname="runners.FinalProjectTestRunnerTestNG" time="5.078">
+  <testcase name="runScenario[&quot;Create Order Standard User&quot;, &quot;Purchase the order from ecommerce&quot;](4)" classname="runners.FinalProjectTestRunnerTestNG" time="4.319">
     <system-out><![CDATA[
 Scenario Outline: Create Order Standard User                                              &amp#27;[90m# src/test/resources/features/FinalProject.feature:49&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer landing to ecommerce&amp#27;[0m                                                        &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.landingPage()&amp#27;[0m
@@ -167,29 +170,11 @@ Scenario Outline: Create Order Standard User                                    
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mBuyer finish order product &amp#27;[0m&amp#27;[32m&amp#27;[1mSauce Labs Bolt T-Shirt&amp#27;[0m                                  &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerFinishOrder(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mBuyer will see message is displayed on confirmation page &amp#27;[0m&amp#27;[32m&amp#27;[1mThank you for your order!&amp#27;[0m &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.confirmationPage(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Mar 15, 2025 1:51:39 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
-WARNING: Connection reset
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
-	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
-	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1478)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1423)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1423)
-
+    <system-err><![CDATA[Mar 24, 2025 5:11:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Create Order Standard User&quot;, &quot;Purchase the order from ecommerce&quot;](5)" classname="runners.FinalProjectTestRunnerTestNG" time="4.816">
+  <testcase name="runScenario[&quot;Create Order Standard User&quot;, &quot;Purchase the order from ecommerce&quot;](5)" classname="runners.FinalProjectTestRunnerTestNG" time="4.262">
     <system-out><![CDATA[
 Scenario Outline: Create Order Standard User                                              &amp#27;[90m# src/test/resources/features/FinalProject.feature:50&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer landing to ecommerce&amp#27;[0m                                                        &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.landingPage()&amp#27;[0m
@@ -200,12 +185,13 @@ Scenario Outline: Create Order Standard User                                    
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mBuyer finish order product &amp#27;[0m&amp#27;[32m&amp#27;[1mSauce Labs Onesie&amp#27;[0m                                        &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerFinishOrder(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mBuyer will see message is displayed on confirmation page &amp#27;[0m&amp#27;[32m&amp#27;[1mThank you for your order!&amp#27;[0m &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.confirmationPage(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Mar 15, 2025 1:51:44 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Mar 24, 2025 5:11:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+Mar 24, 2025 5:11:49 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
-	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
 	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
@@ -215,14 +201,14 @@ java.net.SocketException: Connection reset
 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1478)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1423)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1423)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1469)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1414)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
 
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Create Order Standard User&quot;, &quot;Purchase the order from ecommerce&quot;](6)" classname="runners.FinalProjectTestRunnerTestNG" time="4.628">
+  <testcase name="runScenario[&quot;Create Order Standard User&quot;, &quot;Purchase the order from ecommerce&quot;](6)" classname="runners.FinalProjectTestRunnerTestNG" time="4.33">
     <system-out><![CDATA[
 Scenario Outline: Create Order Standard User                                              &amp#27;[90m# src/test/resources/features/FinalProject.feature:51&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer landing to ecommerce&amp#27;[0m                                                        &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.landingPage()&amp#27;[0m
@@ -233,12 +219,13 @@ Scenario Outline: Create Order Standard User                                    
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mBuyer finish order product &amp#27;[0m&amp#27;[32m&amp#27;[1mSauce Labs Bike Light&amp#27;[0m                                    &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerFinishOrder(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mBuyer will see message is displayed on confirmation page &amp#27;[0m&amp#27;[32m&amp#27;[1mThank you for your order!&amp#27;[0m &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.confirmationPage(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Mar 15, 2025 1:51:48 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Mar 24, 2025 5:11:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+Mar 24, 2025 5:11:53 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
-	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
 	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
@@ -248,14 +235,14 @@ java.net.SocketException: Connection reset
 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1478)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1423)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1423)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1469)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1414)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
 
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Create Order Standard User&quot;, &quot;Purchase the order from ecommerce&quot;](7)" classname="runners.FinalProjectTestRunnerTestNG" time="4.823">
+  <testcase name="runScenario[&quot;Create Order Standard User&quot;, &quot;Purchase the order from ecommerce&quot;](7)" classname="runners.FinalProjectTestRunnerTestNG" time="4.2">
     <system-out><![CDATA[
 Scenario Outline: Create Order Standard User                                              &amp#27;[90m# src/test/resources/features/FinalProject.feature:52&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mBuyer landing to ecommerce&amp#27;[0m                                                        &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.landingPage()&amp#27;[0m
@@ -266,12 +253,13 @@ Scenario Outline: Create Order Standard User                                    
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mBuyer finish order product &amp#27;[0m&amp#27;[32m&amp#27;[1mSauce Labs Fleece Jacket&amp#27;[0m                                 &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.buyerFinishOrder(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mBuyer will see message is displayed on confirmation page &amp#27;[0m&amp#27;[32m&amp#27;[1mThank you for your order!&amp#27;[0m &amp#27;[90m# stepdefinitions.finalproject.FinalProjectStepDefinition.confirmationPage(java.lang.String)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Mar 15, 2025 1:51:53 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Mar 24, 2025 5:11:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 133; Please update to a Selenium version that supports CDP version 134
+Mar 24, 2025 5:11:58 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
-	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
 	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
@@ -281,10 +269,10 @@ java.net.SocketException: Connection reset
 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
 	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1478)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1423)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1423)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1469)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1414)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
 
 ]]></system-err>
   </testcase>
