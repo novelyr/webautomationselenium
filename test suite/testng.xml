@@ -6,6 +6,7 @@
         <classes>
             <!-- <class name="automation.POMTaskSauceDemo"/> -->
             <!-- <class name="runners.TestRunnerTestNG"/> -->
+            <!-- add comment test jenkins -->
             <class name="runners.FinalProjectTestRunnerTestNG"/>
         </classes>
     </test>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="31.374" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-03-24T10:11:26.903277300Z">
-<testcase classname="Purchase the order from ecommerce" name="Error User Stuck - #1.1" time="7.596">
+<testsuite name="Cucumber" time="29.513" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-03-24T10:25:48.448264Z">
+<testcase classname="Purchase the order from ecommerce" name="Error User Stuck - #1.1" time="5.908">
 <system-out><![CDATA[
 Given Buyer landing to ecommerce............................................passed
 Given Buyer logged to website username error_user and password secret_sauce.passed
@@ -11,7 +11,7 @@ And Buyer finish order product Sauce Labs Backpack..........................pass
 Then Buyer still in the finish page with title Checkout: Overview...........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Purchase the order from ecommerce" name="Problem User Order - #1.1" time="4.296">
+<testcase classname="Purchase the order from ecommerce" name="Problem User Order - #1.1" time="4.247">
 <system-out><![CDATA[
 Given Buyer landing to ecommerce............................................passed
 Given Buyer logged to website username problem_user and password secret_sauce.passed
@@ -21,14 +21,14 @@ And Buyer input first name Novel, last name Rehandhika, and postal code 63410.pa
 Then Buyer will see error input notification Error: Last Name is required...passed
 ]]></system-out>
 </testcase>
-<testcase classname="Purchase the order from ecommerce" name="Loged Out User - #1.1" time="1.989">
+<testcase classname="Purchase the order from ecommerce" name="Loged Out User - #1.1" time="1.781">
 <system-out><![CDATA[
 Given Buyer landing to ecommerce............................................passed
 Given Buyer logged to website username locked_out_user and password secret_sauce.passed
 Then Buyer will see notification Epic sadface: Sorry, this user has been locked out..passed
 ]]></system-out>
 </testcase>
-<testcase classname="Purchase the order from ecommerce" name="Create Order Standard User - #1.1" time="4.313">
+<testcase classname="Purchase the order from ecommerce" name="Create Order Standard User - #1.1" time="4.435">
 <system-out><![CDATA[
 Given Buyer landing to ecommerce............................................passed
 Given Buyer logged to website username standard_user and password secret_sauce.passed
@@ -39,7 +39,7 @@ And Buyer finish order product Sauce Labs Bolt T-Shirt......................pass
 Then Buyer will see message is displayed on confirmation page Thank you for your order!.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Purchase the order from ecommerce" name="Create Order Standard User - #1.2" time="4.256">
+<testcase classname="Purchase the order from ecommerce" name="Create Order Standard User - #1.2" time="4.356">
 <system-out><![CDATA[
 Given Buyer landing to ecommerce............................................passed
 Given Buyer logged to website username standard_user and password secret_sauce.passed
@@ -50,7 +50,7 @@ And Buyer finish order product Sauce Labs Onesie............................pass
 Then Buyer will see message is displayed on confirmation page Thank you for your order!.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Purchase the order from ecommerce" name="Create Order Standard User - #1.3" time="4.328">
+<testcase classname="Purchase the order from ecommerce" name="Create Order Standard User - #1.3" time="4.127">
 <system-out><![CDATA[
 Given Buyer landing to ecommerce............................................passed
 Given Buyer logged to website username standard_user and password secret_sauce.passed
@@ -61,7 +61,7 @@ And Buyer finish order product Sauce Labs Bike Light........................pass
 Then Buyer will see message is displayed on confirmation page Thank you for your order!.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Purchase the order from ecommerce" name="Create Order Standard User - #1.4" time="4.192">
+<testcase classname="Purchase the order from ecommerce" name="Create Order Standard User - #1.4" time="4.313">
 <system-out><![CDATA[
 Given Buyer landing to ecommerce............................................passed
 Given Buyer logged to website username standard_user and password secret_sauce.passed
